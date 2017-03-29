@@ -4,6 +4,12 @@ using UnityEngine.UI;
 using SimpleJSON;
 using UnityEngine.SceneManagement;
 
+/********************************************************
+ * 
+ * This Script used to Login with APT's.
+ * 
+ * ******************************************************/
+
 public class LoginViewController : MonoBehaviour {
 
 	public string url   = "http://weavebytes.com/lplates/api.php";

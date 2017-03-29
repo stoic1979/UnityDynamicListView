@@ -20,44 +20,45 @@ public class ApiDataGenerator {
 			new Report ( "John", 5, "WPS 25"  , 1, 12.344 , 13.344, 20 , 10, 16 ),
 			new Report ( "Jack", 6, "Calpyso" , 2, 12.344 , 13.344, 12 , 2 , 9  )
 		};
-//		for (int i = 0; i < lstReports.Count; i++) {
-//			lstReports [i].show ();
-//		}
+
 		return lstReports;		
 	}
 
-	public static List<Like> getDummyLikes()
+	public static ArrayList getDummyLikes()
 	{
-		List<Like> likes = new List<Like> ();
-		likes.Add (new Like ("Tom" ,1));
-		likes.Add (new Like ("John",5));
-		likes.Add (new Like ("Sam" ,3));
-		likes.Add (new Like ("Davy",2));
-		likes.Add (new Like ("Jack",6));
+		ArrayList likes = new ArrayList (){
+			new Like ("Tom" ,1),
+			new Like ("John",5),
+			new Like ("Sam" ,3),
+			new Like ("Davy",2),
+			new Like ("Jack",6)
+		};
 
 		return likes;
 	}
 
-	public static List<Dislike> getDummyDislikes()
+	public static ArrayList getDummyDislikes()
 	{
-		List<Dislike> dislikes = new List<Dislike> ();
-		dislikes.Add (new Dislike ("Tom" ,1));
-		dislikes.Add (new Dislike ("John",5));
-		dislikes.Add (new Dislike ("Sam" ,3));
-		dislikes.Add (new Dislike ("Davy",2));
-		dislikes.Add (new Dislike ("Jack",6));
+		ArrayList dislikes = new ArrayList (){
+		    new Dislike ("Tom" ,1),
+			new Dislike ("John",5),
+			new Dislike ("Sam" ,3),
+			new Dislike ("Davy",2),
+			new Dislike ("Jack",6)
+	};
 
 		return dislikes;
 	}
 
-	public static List<Thank> getDummyThanks()
+	public static ArrayList getDummyThanks()
 	{
-		List<Thank> thanks = new List<Thank> ();
-		thanks.Add (new Thank ("Tom" ,1));
-		thanks.Add (new Thank ("John",5));
-		thanks.Add (new Thank ("Sam" ,3));
-		thanks.Add (new Thank ("Davy",2));
-		thanks.Add (new Thank ("Jack",6));
+		ArrayList thanks = new ArrayList (){
+			new Thank ("Tom" ,1),
+			new Thank ("John",5),
+			new Thank ("Sam" ,3),
+			new Thank ("Davy",2),
+			new Thank ("Jack",6)
+		};
 
 		return thanks;
 	}

@@ -4,6 +4,12 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using SimpleJSON;
 
+/********************************************************
+ * 
+ * This Script used to register with server using APT's.
+ * 
+ * ******************************************************/
+
 public class RegisterViewController : MonoBehaviour {
 	
 	public string url   = "http://weavebytes.com/lplates/api.php";
